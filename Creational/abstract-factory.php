@@ -126,7 +126,7 @@ $letter = $modernDoc->createLetter();
 $resume = $modernDoc->createResume();
 var_dump($letter->getFontFamily(), $resume->getTitle());
 
-$modernDoc = new FancyDocumentCreator();
-$letter = $modernDoc->createLetter();
-$resume = $modernDoc->createResume();
+$fancyDoc = new FancyDocumentCreator();
+$letter = $fancyDoc->createLetter();
+$resume = $fancyDoc->createResume();
 var_dump($letter->getFontFamily(), $resume->getTitle());
